@@ -8,10 +8,15 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.12"
 fastapi = {extras = ["standard"], version = "^0.115.5"}
+pre-commit = "^4.0.1"
 
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.3.3"
+mypy = "^1.13.0"
+black = "^24.10.0"
+ruff = "^0.8.1"
+isort = "^5.13.2"
 
 [build-system]
 requires = ["poetry-core"]
