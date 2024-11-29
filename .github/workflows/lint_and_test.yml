@@ -13,4 +13,5 @@ jobs:
       run: |
         python -m pip install poetry
         poetry install --with dev
-        poetry run make lint
+    - name: Run lint step
+      run: poetry run make lint
