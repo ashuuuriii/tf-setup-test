@@ -1,0 +1,1 @@
+A simple fastapi app to test out deployment cloudrun
